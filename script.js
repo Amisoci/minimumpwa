@@ -1,4 +1,5 @@
 window.addEventListener("load",function(){
+	console.log("hit");
 	const registerServiceWorker = async() => {
 		if('serviceWorker' in navigator) {
 			try {
@@ -20,5 +21,8 @@ window.addEventListener("load",function(){
 			}
 		}
 	};
+	const DBOpenRequest = window.indexedDB.open("list");
+	
+	console.log(indexedDB.databases());
 	
 });

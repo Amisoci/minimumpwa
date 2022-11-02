@@ -10,7 +10,7 @@
   "description": "Minimum PWA",
   "icons": [
       {
-        "src": "/PWA.png",
+        "src": "/assets/PWA.png",
         "sizes": "512x512",
         "type": "image/png"
       }
