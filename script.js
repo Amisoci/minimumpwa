@@ -24,5 +24,6 @@ window.addEventListener("load",function(){
 	const DBOpenRequest = window.indexedDB.open("list");
 	
 	console.log(indexedDB.databases());
+	console.log("hit2");
 	
 });
