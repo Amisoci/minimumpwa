@@ -1,3 +1,5 @@
+alert('Something rude!');
+
 window.addEventListener("load",function(){
 	console.log("hit");
 	const registerServiceWorker = async() => {
