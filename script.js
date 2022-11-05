@@ -15,15 +15,15 @@ window.addEventListener("load",function(){
 					console.log('Service worker installed');
 				} else if (registration.active) {
 					console.log('Service worker active');
-				} catch (error) {
-					console.error(`Registration failed with ${error}`);
 				}
+			} catch (error) {
+				console.error(`Registration failed with ${error}`);
 			}
 		}
 	};
 	const DBOpenRequest = window.indexedDB.open("list");
 	
-	console.log(indexedDB.databases());
+	console.log(window.indexedDB.databases());
 	console.log("hit2");
 	
 });
